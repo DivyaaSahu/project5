@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">MyPortfolio</h1>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Hello, I'm Divya 👩‍💻</h2>
+      <p>Full-Stack Developer | Problem Solver | Tech Enthusiast</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a passionate web developer skilled in building responsive and optimized web applications. 
+      I enjoy solving real-world problems through technology.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="https://via.placeholder.com/400" loading="lazy" alt="Project 1">
+        <h3>E-commerce Site</h3>
+        <p>An optimized online shopping platform with secure checkout.</p>
+      </div>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/400" loading="lazy" alt="Project 2">
+        <h3>Blog Platform</h3>
+        <p>A responsive blogging site with comments and categories.</p>
+      </div>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/400" loading="lazy" alt="Project 3">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio showcasing projects and skills.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Divya | Built with ❤</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
